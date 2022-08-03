@@ -19,6 +19,10 @@ Don't forget to install the following to make it function as intended please:
    1. Django - "pip install django"
    2. Pillow - "pip install pillow"
 -----------------------------
+To start the website, type this on terminal:
+   - python manage.py runserver
+   - click on this link: http://127.0.0.1:8000/
+-----------------------------
 You should login to the admin before using the website. Kindly use this to enter the admin please:
    - Username: cabaitan 
    - Password: 123 
