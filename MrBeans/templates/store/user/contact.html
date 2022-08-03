@@ -1,0 +1,39 @@
+{% extends 'store/user/home.html' %}
+{% load static %}
+{% block content %}
+
+  <!-- Contact Start -->
+  <section class="contact">
+    <div class="container py-5 px-5">
+      <div class="row py-5">
+        <div class="col-lg-7 pt-5">
+          <h1 class="pb-3">Contact Us</h1>
+          <p>Got a question for us? Email us by filling up the form below. You can also give us a call. Want to
+            return your order? Mail us through our address.</p>
+        </div>
+
+        <form class="row col-lg-12 px-5">
+          <div class="row col-lg-6 col-md-12 g-2 mx-lg-5">
+            <div class="col-lg-6 col-md-6">
+              <input type="text" class="form-control" placeholder="Full Name">
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+              <input type="text" class="form-control" placeholder="Email Address">
+            </div>
+
+            <div class="row mx-auto px-1 my-2">
+              <textarea id="exampleFormControlTextarea1" rows="5" placeholder="Enter your Message"></textarea>
+            </div>
+
+            <div class="col-lg-12 col-md-12 pt-2 d-flex justify-content-center">
+              <button type="submit" class="btn_send">Send Email</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Contact End -->
+
+{% endblock content %}
